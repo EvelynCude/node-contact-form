@@ -55,8 +55,8 @@ app.post("/send",  (req, res) => {
 
     // setup email data 
     let mailOptions = {
-        from: '"Nodemailer Contact Form 👻" <benitezea@gmail.com>', // sender address
-        to: 'evelyncude@gmail.com', // list of receivers
+        from: '"Nodemailer Contact Form 👻" <gmail email here>', // sender address
+        to: 'receiving email here', // list of receivers
         subject: 'Nodemailer contact message', // Subject line
         text: 'Hello world?', // plain text body
         html: emailMsg // html body
