@@ -48,6 +48,7 @@ app.post("/send",  (req, res) => {
             user: 'gmail email here', // generated ethereal user
             pass: 'gmail password here' // generated ethereal password
         },
+        // NEEDED FOR TESTING ON LOCALHOST
         tls:{
             rejectUnauthorized: false
         }
