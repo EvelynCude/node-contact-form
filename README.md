@@ -1,2 +1,2 @@
 # node-contact-form
-Contact form using Node
+A Basic Node contact form built using Handlebars and Nodemailer
